@@ -1,0 +1,75 @@
+.counter-container{
+    padding: 30px;
+    background-color: rgb(32, 32, 32);
+    border: solid rgb(255, 255, 255) 1px;
+    border-style:double;
+
+}
+
+
+.counter-title{
+    background-color: rgb(57, 57, 57);
+    border: solid rgb(85, 85, 85) 1px;
+    box-shadow: 4px 4px 7px rgba(188, 188, 188, 0.521);
+    color: rgb(219, 219, 219);
+    padding: 10px 30px;
+}
+
+.counter-text{
+    color:rgb(198, 198, 198);
+    font-size: 70px;
+    margin: 10px;
+}
+
+.counter-step_text{
+    color:rgb(198, 198, 198);
+    margin: 0;
+    font-size:small;
+}
+
+.counter-input{
+    min-width: 70px;
+    text-align: center;
+    font-size: smaller;
+    border: solid rgb(85, 85, 85) 1px;
+    border-style:double;
+    background-color: rgb(212, 212, 212);
+} 
+
+.counter-button{
+    margin: 0.67em;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter-button_element{
+    font-size: xx-large;
+    min-width: 50px;
+    min-height: 50px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.button_plus{
+    box-shadow: 4px 4px 7px rgba(23, 196, 4, 0.521);
+    background-color: rgb(76, 76, 76);
+    color: rgba(13, 132, 0, 0.848);
+}
+.button_plus:hover {
+    color: rgb(212, 212, 212);
+    background-color: rgba(23, 196, 4, 0.521);
+}
+
+.button_minus{
+    box-shadow: 4px 4px 7px rgba(237, 1, 1, 0.521);
+    background-color: rgb(76, 76, 76);
+    color: rgba(181, 0, 0, 0.848);
+}
+
+.button_minus:hover{
+    color: rgb(212, 212, 212);
+    background-color: rgba(237, 1, 1, 0.521);
+}
